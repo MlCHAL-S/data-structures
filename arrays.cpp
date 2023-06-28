@@ -21,12 +21,9 @@ private:
     T m_Data[S];
 };
 
+
+
 int main(){
 
-    Array<int, 5> data{};
-
-    for(int i=0; i<data.Size(); i++){
-        data[i] = i;
-        cout<<data[i]<<" ";
-    }
+    
 }
